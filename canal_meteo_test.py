@@ -22,7 +22,6 @@ class CanalMeteoTest(unittest.TestCase):
 
         #then
         self.assertEquals("Soleil avec lunettes", affichage)
-        self.assertTrue(self.fournisseur_de_salut_bonjour)
 
     def test_temperature_froide_flocons(self):
         #given
